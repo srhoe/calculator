@@ -8,32 +8,10 @@ int main (void) {
 	int division = 4;
 	int selection;
 	int numb1, numb2, res;
-
-//Created an add function.
-int sum(int numb1, int numb2) {
-	int numb3;
-	numb3 = numb1 + numb2;
-	return(numb3);
-}
-
-int sub(int numb1, int numb2) {
-	int numb3;
-	numb3 = numb1 - numb2;
-	return(numb3);
-}
-
-int multip(int numb1, int numb2) {
-	int numb3;
-	numb3 = numb1 * numb2;
-	return(numb3);
-}
-
-int div(int numb1, int numb2) {
-	int numb3;
-	numb3 = numb1 / numb2;
-	return(numb3);
-}
-	
+	int sum(int numb1, int numb2);
+	int sub(int numb1, int numb2);
+	int multip(int numb1, int numb2);
+	int div(int numb1, int numb2);
 	//Prompting the user and ask what operation would they want to preform.
 	printf("What operation would you like to use: 1)add, 2)subtract, 3)multiplication, or 4)division?\n");
 	scanf("%d", &selection);
@@ -70,3 +48,28 @@ int div(int numb1, int numb2) {
 return 0;
 }
 
+//Created an add function.
+int sum(int numb1, int numb2) {
+	int numb3;
+	numb3 = numb1 + numb2;
+	return(numb3);
+}
+
+int sub(int numb1, int numb2) {
+	int numb3;
+	numb3 = numb1 - numb2;
+	return(numb3);
+}
+
+int multip(int numb1, int numb2) {
+	int numb3;
+	numb3 = numb1 * numb2;
+	return(numb3);
+}
+
+int div(int numb1, int numb2) {
+	int numb3;
+	numb3 = numb1 / numb2;
+	return(numb3);
+}
+	
